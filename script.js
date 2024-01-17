@@ -135,3 +135,33 @@ window.addEventListener('keydown', e => {
             break;
     };
 });
+
+//ON-SCREEN BUTTONS
+let up = document.querySelector("#up");
+up.addEventListener("click", () => {
+    musicsound.play();
+    movesound.play();
+    direction.x = 0;
+    direction.y = -1;
+})
+let down = document.querySelector("#down");
+down.addEventListener("click", () => {
+    musicsound.play();
+    movesound.play();
+    direction.x = 0;
+    direction.y = 1;
+})
+let left = document.querySelector("#left");
+left.addEventListener("click", () => {
+    musicsound.play();
+    movesound.play();
+    direction.x = -1;
+    direction.y = 0;
+})
+let right = document.querySelector("#right");
+right.addEventListener("click", () => {
+    musicsound.play();
+    movesound.play();
+    direction.x = 1;
+    direction.y = 0;
+})
