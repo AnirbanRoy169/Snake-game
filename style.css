@@ -98,7 +98,7 @@
 }
 
 /* MEDIA QUARIES */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1120px) {
     #scoreBox {
         top: 0px;
         font-size: large;
